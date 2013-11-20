@@ -74,3 +74,9 @@ EXTRA_PATH_METADATA = {
 
 # Enable code highlighting     
 MD_EXTENSIONS = (['codehilite(css_class=codehilite)'])    
+
+# Clean output directory during build
+DELETE_OUTPUT_DIRECTORY = True
+
+# Show article author on posts
+SHOW_ARTICLE_AUTHOR = True
